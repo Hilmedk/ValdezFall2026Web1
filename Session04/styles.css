@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(20, 13, 51);
+    color: rgb(249, 157, 217);
+    font-family: "Tiny5", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(245, 82, 153);
+    font-size: 36px;
+}
+
+html {
+    display: flex;
+  align-items: center;
+}
+
+nav a {
+    color: rgb(143, 249, 184);
+}
+
+p {
+    color: rgb(255, 189, 200);
+}
+
+p a{
+    color: rgb(143, 249, 184);
+}
+
+footer {
+    color: rgb(255, 255, 255);
+}
+
+
+h2 {
+    color: rgb(255, 239, 242);
+    font-size: 23px;
+}
+
+
+h4 {
+    color: rgb(249, 157, 143);
+    font-size: 14px;
+}
+
+h4 a{
+    color: rgb(143, 249, 184);
+    font-size: 14px;
+}
+
+h3 a {
+    color: rgb(0, 255, 174);
+    font-size: 24px;
+}
+
+h3 {
+    color: rgb(255, 130, 130);
+}
+
+ul {
+    color: rgb(143, 249, 184);
+}
+
+
+table {
+    color: rgb(255, 215, 242);
+}
+
+th {
+    color: rgb(157, 249, 160);
+}
+
+.rainwowa a{
+		animation: rainwowa 2.5s linear;
+		animation-iteration-count: infinite;
+}
+
+@keyframes rainwowa{
+   100%, 0% {
+    color: rgb(255, 255, 255);
+   } 50% {
+    color: rgb(255, 90, 142);
+   } 100% {
+    color: rgb(255, 255, 255);
+   }
+}
+
+.rainwow{
+        font-size: 45px;
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+		animation: rainwow 2.5s linear;
+		animation-iteration-count: infinite;
+}
+
+@keyframes rainwow{
+   100%, 0% {
+    color: rgb(255, 90, 90);
+   } 25% {
+    color: rgb(255, 167, 90);
+   } 50% {
+    color: rgb(255, 250, 90);
+   } 75% {
+    color: rgb(90, 255, 137);
+   } 100% {
+    color: rgb(255, 90, 142);
+   }
+}
