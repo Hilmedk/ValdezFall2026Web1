@@ -1,0 +1,83 @@
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	cursor: none;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+	  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 52px;
+  font-style: normal;
+  animation: bluehues 2.5s linear;
+	animation-iteration-count: infinite;
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color: #373c52;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 101.5%;
+	padding: 10px;
+	
+}
+
+.hat-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.hat {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.bluehuman img{
+ position: absolute;
+ height: 50%;
+ bottom:-20px;
+left: 550px;
+}
+
+.greenroom img{
+ position: absolute;
+ height: 105%;
+ bottom:-30px;
+ width: 1200px;
+left:0px;
+z-index: -10;
+}
+
+@keyframes bluehues{
+   100%, 0% {
+    color: rgb(255, 255, 255);
+   } 50% {
+    color: rgb(75, 131, 214);
+   } 100% {
+    color: rgb(255, 255, 255);
+   }
+}
+
+.cursor{
+
+	user-select: none;
+	width: 150px;
+	height: 150px;
+	z-index: 1;
+	position:absolute ;
+}
